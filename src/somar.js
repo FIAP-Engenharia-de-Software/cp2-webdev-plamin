@@ -5,6 +5,12 @@
 
 function somar(a, b) {
   let resultado = a + b;
+  if (b == null) {
+    let b = 0
+  }
+  else if (String(a) || String(b)) {
+    let 
+  }
   return resultado;
 }
 
